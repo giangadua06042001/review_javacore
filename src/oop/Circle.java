@@ -1,6 +1,7 @@
 package oop;
 
 public class Circle extends Geometry{
+    public  int test;
     private double radius;
 
     public double getRadius() {

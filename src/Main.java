@@ -1,7 +1,7 @@
 import oop.Circle;
 import oop.Geometry;
 import oop.Rectangle;
-import varibale.Variable;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -14,11 +14,11 @@ public class Main {
 //        System.out.println(total);
 //        System.out.println(Variable.CONSTANT);
 //        String constant=Variable.CONSTANT;
-//        ======================================================================================================
+//        =====================================================================================================
+        Rectangle rectangle = new Rectangle("Hinh tron", 22, 22);
+        System.out.println(rectangle);
+        rectangle.name = "hehlelel";
 
-        Rectangle rectangle = new Rectangle(3, 4);
-        double acreage = rectangle.acreage();
-        System.out.println(acreage);
 
     }
 }

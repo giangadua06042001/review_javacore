@@ -1,13 +1,15 @@
 package oop;
 
 public class Geometry {
+    public String name;
     private double with;
     private double height;
 
     public Geometry() {
     }
 
-    public Geometry(double with, double height) {
+    public Geometry(String name, double with, double height) {
+        this.name = name;
         this.with = with;
         this.height = height;
     }
@@ -27,8 +29,9 @@ public class Geometry {
     public void setHeight(double height) {
         this.height = height;
     }
-    public double acreage(){
-        return with*height;
+
+    public double acreage() {
+        return with * height;
     }
 
 }

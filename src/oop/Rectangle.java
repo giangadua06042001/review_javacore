@@ -1,12 +1,17 @@
 package oop;
 
 public class Rectangle extends Geometry{
+
+
+    public Rectangle(String name, double with, double height) {
+        super(name, with, height);
+    }
+
     public Rectangle() {
     }
 
-    public Rectangle(double with, double height) {
-        super(with, height);
-    }
+
+
     public double acreage(){
         return getWith()*getHeight();
     }

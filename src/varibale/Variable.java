@@ -1,6 +1,6 @@
 package varibale;
 
-public class Variable {
+ public class Variable {
 //    Biến tĩnh không được lưu ở trên vùng nhớ stack hay heap mà thay vào đó nó được lưu ở metaspace khi khai báo
 //    một biến tĩnh tức là biến này thuộc về lớp và không cần tạo một đối tượng cụ thế cũng có thế gọi đến trực
 //    tiếp biến đó.
@@ -21,5 +21,7 @@ public class Variable {
          int c =a+b;
          return c;
     }
+
+
 
 }
